@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF6D74522626719100BD8C1E /* ControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6D74512626719100BD8C1E /* ControllerTwo.swift */; };
 		BFAD380226266B0D00091391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD380126266B0D00091391 /* AppDelegate.swift */; };
 		BFAD380426266B0D00091391 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD380326266B0D00091391 /* SceneDelegate.swift */; };
 		BFAD380B26266B0E00091391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAD380A26266B0E00091391 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF6D74512626719100BD8C1E /* ControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerTwo.swift; sourceTree = "<group>"; };
 		BFAD37FE26266B0D00091391 /* ProgramaticTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgramaticTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAD380126266B0D00091391 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFAD380326266B0D00091391 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				BFAD381726266B7800091391 /* RootTabBarController.swift */,
 				BFAD381C26266C6F00091391 /* ControllerOne.swift */,
 				BFAD382326266E4D00091391 /* ApplicationController.swift */,
+				BF6D74512626719100BD8C1E /* ControllerTwo.swift */,
 			);
 			path = ProgramaticTabBar;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			files = (
 				BFAD381D26266C6F00091391 /* ControllerOne.swift in Sources */,
 				BFAD381826266B7800091391 /* RootTabBarController.swift in Sources */,
+				BF6D74522626719100BD8C1E /* ControllerTwo.swift in Sources */,
 				BFAD380226266B0D00091391 /* AppDelegate.swift in Sources */,
 				BFAD380426266B0D00091391 /* SceneDelegate.swift in Sources */,
 				BFAD382426266E4D00091391 /* ApplicationController.swift in Sources */,

@@ -10,10 +10,11 @@ import UIKit
 
 class ApplicationController {
     private let controllerOne = ControllerOne()
+    private let controllerTwo = ControllerTwo()
     
     private lazy var rootController: RootTabBarController = {
         let c = RootTabBarController()
-        c.viewControllers = [controllerOne]
+        c.viewControllers = [controllerOne, controllerTwo]
         return c
     }()
     
