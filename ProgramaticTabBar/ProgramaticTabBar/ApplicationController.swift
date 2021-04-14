@@ -18,7 +18,17 @@ class ApplicationController {
         return c
     }()
     
+    private func setupActions() {
+        controllerOne.onButtonClicked = { [weak self] in self?.setSelectedIndex(1) }
+        controllerTwo.onButtonClicked = { [weak self] in self?.setSelectedIndex(0) }
+    }
+    
+    private func setSelectedIndex(_ index: Int) {
+        self.rootController.selectedIndex = index
+    }
+    
     func getRootController() -> UIViewController {
+        setupActions()
         return rootController
     }
 }
